@@ -1,0 +1,11 @@
+﻿Tempo di risposta medio alla chiamata api.chess.com ~500ms
+
+Se si eseguono 2 chiamate a api.chess.com contemporaneamente dopo ~150 richieste
+si cominciano ad ottenere errori "too many request" che si attestano a 180 errori
+su 740 richieste processate
+
+Il tempo medio di una risposta da api.chess.com è di ~300ms 
+Dopo 7150 richieste il tempo medio di risposta è sceso a ~491ms
+Dopo 9906 richieste il tempo medio di risposta è sceso a ~497ms
+Dopo 11600 richieste il tempo medio di risposta è sceso a ~500ms
+Dopo 21761 richieste il tempo medio di risposta è sceso a ~509ms
